@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hill-img {
+    width: 100%;
+    /* border: 1px solid red;    */
+    mix-blend-mode: multiply;
+
+
+}
+.water-card{
+    background: #000;
+    height: 4rem;
+    color: #fff;
+}
