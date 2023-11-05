@@ -293,7 +293,7 @@ article .map-area .card .card-body iframe {
 article .map-area .card-body .hospital {
     position: absolute;
     top: 4rem;
-    right: 2rem;
+    right: 2%;
     padding: 10px;
     border-radius: 50%;
     z-index: 999;
@@ -306,7 +306,7 @@ article .map-area .card-body .hospital {
 article .map-area .card-body .transport {
     position: absolute;
     top: 10rem;
-    right: 2rem;
+    right: 2%;
     padding: 10px;
     border-radius: 50%;
     z-index: 999;
@@ -319,7 +319,7 @@ article .map-area .card-body .transport {
 article .map-area .card-body .popular-store {
     position: absolute;
     top: 16rem;
-    right: 2rem;
+    right: 2%;
     padding: 10px;
     border-radius: 50%;
     z-index: 999;
@@ -332,7 +332,7 @@ article .map-area .card-body .popular-store {
 article .map-area .card-body .restaurent {
     position: absolute;
     top: 22rem;
-    right: 2rem;
+    right: 2%;
     padding: 10px;
     border-radius: 50%;
     z-index: 999;

@@ -19,7 +19,7 @@ import User from './../assets/img/profile.png'
 import iconMap from '../consts'
 
 const getWeather = async () => {
-    const response = await fetch("https://api.openweathermap.org/data/2.5/weather?lat=27.0380421&lon=88.262847&units=metric&appid=[API_KEY_HERE]")
+    const response = await fetch("https://api.openweathermap.org/data/2.5/weather?lat=27.0380421&lon=88.262847&units=metric&appid=772d63bf896d0e4db07e363ba179e12c")
     const responseString = await response.text();
     const parsedJson = JSON.parse(responseString);
     console.log(parsedJson);
@@ -27,7 +27,7 @@ const getWeather = async () => {
 }
 
 const comp = getWeather().then((jsonData) => {
-    return <div className='weather'>
+    return <div className={"weather"}>
         {/* <div className="card">
             <div className="card-body">
                 <div className='card-icon'>
@@ -59,7 +59,6 @@ export default function Darjeeling() {
     return (
 
         <>
-            <title>Darjeeling</title>
             <div className='container-fluid'>
                 <div className='hero'>
                     {/* This card For Wather */}
@@ -247,7 +246,7 @@ export default function Darjeeling() {
                                                 Loved my visit and experience there
                                                 Amazing view of Kanchenjunga and the sunrise we got from there
                                                 Will cherish the moment for lifetime.
-                                                <br />
+                                                <br/>
                                                 Lovely place to see the sleeping Buddha. Kanchenjunga view is awesome. Lovely coffee to accompany. Must visit place
                                             </p>
                                         </div>
